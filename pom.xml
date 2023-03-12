@@ -17,18 +17,19 @@
 		<java.version>17</java.version>
 	</properties>
 	<dependencies>
-		<!--SPRING DATA - JPA/Hibernate-->
+		<!-- SPRING DATA - JPA/Hibernate-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 
+		<!-- Spring BOOT -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
-		<!--POSTGRES Dependency-->
+		<!-- POSTGRES Dependency-->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
@@ -36,18 +37,19 @@
 		</dependency>
 
 		<!-- HATEOAS -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-hateoas</artifactId>
-		</dependency>
+		</dependency> -->
 
+		<!-- Spring Boot Test -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
-		<!-- OpenAPI+ui DOCUMENTACAO -->
+		<!-- OpenAPI DOCUMENTACAO - Está dando conflito com o JPA -->
 		<!-- <dependency>
 			<groupId>org.springdoc</groupId>
 			<artifactId>springdoc-openapi-ui</artifactId>
